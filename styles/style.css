@@ -70,7 +70,7 @@
     color: #727272;
     margin-top: 5px;
 }
-.header-div-sub button{
+.btn{
     margin-top: 50px;
     background-color: #FF900E;
     color: #FFFFFF;
@@ -86,7 +86,41 @@
     margin-top: 50px; 
     
 }
+/* Main section */
+.main{
+    margin-top: 80px;
+}
+.main-div{
+    display: flex;
+}
 
+
+.main-grid-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px ;
+}
+.color-change1{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.main-peragraph{
+    font-weight: 700;
+    font-size: 45px;
+}
+.color-change2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;
+}
 
 
 
