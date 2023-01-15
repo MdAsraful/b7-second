@@ -13,7 +13,7 @@
 .header{
     
     width: 100%;
-    height:900px;
+    height:950px;
     background-color: rgba(255, 144, 14, 0.1);
     /* border: 2px solid red ; */  
     
@@ -23,10 +23,24 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 30px;
 }
 .nav-sub-div ul{
     display: flex;
     list-style: none;
+}
+
+.nav-header{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+
+.nav-sub-div ul li{
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
 }
 
 
@@ -41,7 +55,7 @@
 .header-div-sub{
     text-align: center;
     margin: 50px 240px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
     
     
@@ -56,13 +70,6 @@
     color: #727272;
     margin-top: 5px;
 }
-
-.header-div-sub img{
-    max-width: 100%;
-    max-height: 100%;  
-    
-}
-
 .header-div-sub button{
     margin-top: 50px;
     background-color: #FF900E;
@@ -71,6 +78,15 @@
     padding: 20px;
     border-radius: 8px;
 }
+
+
+.header-div-sub img{
+    max-width: 100%;
+    max-height: 100%; 
+    margin-top: 50px; 
+    
+}
+
 
 
 
