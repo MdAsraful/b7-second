@@ -92,6 +92,7 @@
 }
 .main-div{
     display: flex;
+    padding: 0 100px;
 }
 
 
@@ -99,6 +100,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px ;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;
 }
 .color-change1{
     font-weight: 500;
@@ -114,12 +122,9 @@
     font-size: 45px;
     color: #FF900E;
 }
-.main-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 70px;
+.main-sec-pragraph{
+    margin-top: 20px;
+
 }
 
 
